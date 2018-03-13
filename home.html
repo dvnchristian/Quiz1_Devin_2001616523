@@ -1,0 +1,44 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Car Sharing</title>
+    <link rel="stylesheet" href="stylequiz.css">
+  </head>
+  <body>
+    <script>
+    function myFunction() {
+        alert("Successfully Login");
+    }
+    </script>
+
+      <div id="header">
+      <img src="gig_car_share_logo_new.png">
+      </div>
+
+      <table align="center">
+        <form name="Login" action="User.php" onsubmit="return validateForm()" method="post">
+        <br>
+        <tr>
+          <th colspan="2">Login</th>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td><input type="text" name="username"></input></td>
+        </tr>
+        <tr>
+          <td>Password</td>
+          <td><input type="password" name="password" ></input></td>
+        </tr>
+
+        <tr>
+          <th colspan="2"><button onclick="myFunction()">Login</button>
+          </th>
+        </tr>
+
+      </table>
+
+
+
+  </body>
+</html>
